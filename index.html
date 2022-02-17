@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M1R4 Loadingscreen</title>
+<style id="applicationStylesheet" type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+	user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+* {
+	font-family: Poppins;
+}
+	.mediaViewInfo {
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Canvas;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Canvas {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(0,0,0,0);
+		overflow: hidden;
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	#loadingscreen {
+		position: absolute;
+		width: 3093px;
+		height: 1326px;
+		left: -176px;
+		top: -117px;
+		overflow: visible;
+	}
+	#bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#main {
+		position: absolute;
+		width: 845px;
+		height: 1102px;
+		left: 167px;
+		top: 106px;
+		overflow: visible;
+	}
+	#logo {
+		position: absolute;
+		width: 90px;
+		height: 90px;
+		left: 385px;
+		top: 204px;
+		overflow: visible;
+	}
+	#Gruppe_6 {
+		position: absolute;
+		width: 302px;
+		height: 146px;
+		left: 271px;
+		top: 351px;
+		overflow: visible;
+	}
+	#info {
+		position: absolute;
+		width: 35px;
+		height: 35px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Willkommen_bei_Name__Lorem_ips {
+		left: 50px;
+		top: 4px;
+		position: absolute;
+		overflow: visible;
+		width: 253px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1.6666669845581055px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16.666669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_7 {
+		position: absolute;
+		width: 254px;
+		height: 402px;
+		left: 273px;
+		top: 483px;
+		overflow: visible;
+	}
+	#CHANGELOG_26062021_-_Lorem_ips {
+		left: 47px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 208px;
+		white-space: nowrap;
+		line-height: 13px;
+		margin-top: -2.083333969116211px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20.833330154418945px;
+		color: rgba(255,255,255,1);
+	}
+	#settings {
+		position: absolute;
+		width: 33px;
+		height: 33px;
+		left: 0px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Gruppe_5 {
+		position: absolute;
+		width: 173px;
+		height: 125px;
+		left: 273px;
+		top: 800px;
+		overflow: visible;
+	}
+	#Gruppe_2 {
+		position: absolute;
+		width: 173px;
+		height: 46px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#teamspeak-brands {
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Teamspeak_ {
+		left: 75px;
+		top: 2px;
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		line-height: 20.000003814697266px;
+		margin-top: -1.6666669845581055px;
+		text-align: center;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16.666669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Soon {
+		left: 75px;
+		top: 19px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15.000000953674316px;
+		margin-top: -1.2500004768371582px;
+		text-align: center;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: #00adff;
+	}
+	#Gruppe_2_v {
+		position: absolute;
+		width: 132px;
+		height: 34px;
+		left: 2px;
+		top: 91px;
+		overflow: visible;
+	}
+	#discord-brands_1 {
+		position: absolute;
+		width: 29px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Discord {
+		left: 70px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		line-height: 20.000003814697266px;
+		margin-top: -1.6666669845581055px;
+		text-align: center;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16.666669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Soon_y {
+		left: 69px;
+		top: 17px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 15.000000953674316px;
+		margin-top: -1.2500004768371582px;
+		text-align: center;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: #00adff;
+	}
+	#Gruppe_4 {
+		position: absolute;
+		width: 112px;
+		height: 20px;
+		left: 289px;
+		top: 1044px;
+		overflow: visible;
+	}
+	#Gruppe_4_ {
+		position: absolute;
+		width: 112px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: #00adff;
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_1_ {
+		fill: #00adff;
+	}
+	.Ellipse_1_ {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 46px;
+		top: 0px;
+	}
+	#Ellipse_1_ba {
+		fill: #00adff;
+	}
+	.Ellipse_1_ba {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 20px;
+		left: 92px;
+		top: 0px;
+	}
+	#Color_Overlay {
+		fill: #00adff;
+	}
+	.Color_Overlay {
+		overflow: visible;
+		position: absolute;
+		width: 112px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+			.browser-screen-loading-content {
+  text-align: center;
+  height: 2em;
+  max-width: 100%;
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  bottom: 3em;
+  left: 0;
+  margin: auto;
+}
+.loading-dots {
+  margin-left: -1.5em;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-animation: loading-dots-fadein .5s linear forwards;
+  -moz-animation: loading-dots-fadein .5s linear forwards;
+  -o-animation: loading-dots-fadein .5s linear forwards;
+  -ms-animation: loading-dots-fadein .5s linear forwards;
+  animation: loading-dots-fadein .5s linear forwards;
+}
+.loading-dots i {
+  width: .5em;
+  height: .5em;
+  display: inline-block;
+  vertical-align: middle;
+  background: #bc17fe;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 .125em;
+  -webkit-animation: loading-dots-middle-dots .5s linear infinite;
+  -moz-animation: loading-dots-middle-dots .5s linear infinite;
+  -o-animation: loading-dots-middle-dots .5s linear infinite;
+  -ms-animation: loading-dots-middle-dots .5s linear infinite;
+  animation: loading-dots-middle-dots .5s linear infinite;
+}
+.loading-dots.dark-gray i {
+  background: #00adff;
+}
+.loading-dots i:first-child {
+  -webkit-animation: loading-dots-first-dot .5s infinite;
+  -moz-animation: loading-dots-first-dot .5s linear infinite;
+  -o-animation: loading-dots-first-dot .5s linear infinite;
+  -ms-animation: loading-dots-first-dot .5s linear infinite;
+  animation: loading-dots-first-dot .5s linear infinite;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(-1em);
+  -moz-transform: translate(-1em);
+  -o-transform: translate(-1em);
+  -ms-transform: translate(-1em);
+  transform: translate(-1em);
+}
+.loading-dots i:last-child {
+  -webkit-animation: loading-dots-last-dot .5s linear infinite;
+  -moz-animation: loading-dots-last-dot .5s linear infinite;
+  -o-animation: loading-dots-last-dot .5s linear infinite;
+  -ms-animation: loading-dots-last-dot .5s linear infinite;
+  animation: loading-dots-last-dot .5s linear infinite;
+}
+
+
+@-moz-keyframes loading-dots-fadein{100%{opacity:1;-ms-filter:none;filter:none}}
+@-webkit-keyframes loading-dots-fadein{100%{opacity:1;-ms-filter:none;filter:none}}
+@-o-keyframes loading-dots-fadein{100%{opacity:1;-ms-filter:none;filter:none}}
+@keyframes loading-dots-fadein{100%{opacity:1;-ms-filter:none;filter:none}}
+
+@-moz-keyframes loading-dots-first-dot{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em);opacity:1;-ms-filter:none;filter:none}}
+@-webkit-keyframes loading-dots-first-dot{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em);opacity:1;-ms-filter:none;filter:none}}
+@-o-keyframes loading-dots-first-dot{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em);opacity:1;-ms-filter:none;filter:none}}
+@keyframes loading-dots-first-dot{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em);opacity:1;-ms-filter:none;filter:none}}
+
+
+@-moz-keyframes loading-dots-middle-dots{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em)}}
+@-webkit-keyframes loading-dots-middle-dots{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em)}}
+@-o-keyframes loading-dots-middle-dots{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em)}}
+@keyframes loading-dots-middle-dots{100%{-webkit-transform:translate(1em);-moz-transform:translate(1em);-o-transform:translate(1em);-ms-transform:translate(1em);transform:translate(1em)}}
+
+
+@-moz-keyframes loading-dots-last-dot{100%{-webkit-transform:translate(2em);-moz-transform:translate(2em);-o-transform:translate(2em);-ms-transform:translate(2em);transform:translate(2em);opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}}
+@-webkit-keyframes loading-dots-last-dot{100%{-webkit-transform:translate(2em);-moz-transform:translate(2em);-o-transform:translate(2em);-ms-transform:translate(2em);transform:translate(2em);opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}}
+@-o-keyframes loading-dots-last-dot{100%{-webkit-transform:translate(2em);-moz-transform:translate(2em);-o-transform:translate(2em);-ms-transform:translate(2em);transform:translate(2em);opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}}
+@keyframes loading-dots-last-dot{100%{-webkit-transform:translate(2em);-moz-transform:translate(2em);-o-transform:translate(2em);-ms-transform:translate(2em);transform:translate(2em);opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}}
+</style>
+<script id="applicationScript" type="text/javascript" src="rescale.js"></script>
+</head>
+<body>
+	<video id="bg" controls preload="true" autoplay loop muted>
+      <source src="bg.mp4" type="video/mp4" > 
+   </video>
+<div id="Canvas">
+	<div id="loadingscreen">
+			
+		<img id="main" src="https://cdn.discordapp.com/attachments/716590583073734656/942187034087415848/main_2.png">
+			
+		<img id="logo" src="https://cdn.discordapp.com/attachments/877959523636228126/943983740609265704/fivem_logo.png">
+			
+		<div id="Gruppe_6">
+			<img id="info" src="https://cdn.discordapp.com/attachments/788240573382787114/882297047955415110/info.png">
+				
+			<div id="Willkommen_bei_Name__Lorem_ips">
+				<span>Willkommen bei </span>
+				<span style="color:#00adff;">SERVERNAME</span>
+			</div>
+		</div>
+		<div id="Gruppe_7">
+			<div id="CHANGELOG_26062021_-_Lorem_ips">
+				<span>CHANGELOG </span>
+				<span style="font-size:12.5px;color:rgba(190,190,190,1);">(12.02.2022)</span><br/><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);">TITEL HIER EINFÜGEN</span><br/>
+				<span style="font-size:14.583330154418945px;color:rgba(200,200,200,1);"> </span>
+			</div>
+			<img id="settings" src="https://cdn.discordapp.com/attachments/788240573382787114/882297044339941397/settings.png">
+				
+		</div>
+		<div id="Gruppe_5">
+			<div id="Gruppe_2">
+				<img id="teamspeak-brands" src="https://cdn.discordapp.com/attachments/788240573382787114/882297045728235610/teamspeak-brands.png">
+					
+				<div id="Teamspeak_">
+					<span>Teamspeak</span><br/>
+				</div>
+				<div id="Soon">
+					<span>TEAMSPEAK-IP</span>
+				</div>
+			</div>
+			<div id="Gruppe_2_v">
+				<img id="discord-brands_1" src="https://cdn.discordapp.com/attachments/788240573382787114/882297046676160582/discord-brands_1.png">
+					
+				<div id="Discord">
+					<span>Discord</span>
+				</div>
+				<div id="Soon_y">
+					<span>discord.gg/DISCORD</span>
+				</div>
+			</div>
+		</div>
+		<div id="Gruppe_4">
+			<div class="browser-screen-loading-content">
+  				<div class="loading-dots dark-gray">
+    				<i></i>
+    				<i></i>
+    				<i></i>
+    				<i></i>
+  				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<audio id="nibba" src="music.mp3" autoplay>
+<p>Wenn Du dies liest, unterstützt dein PC die Hintergrundmusik nicht.</p>
+</audio>
+                         <script>
+                                var audio = document.getElementById("nibba");
+                                audio.volume = 0.1;
+
+
+								function toggleAudio() {
+									if(audio.paused) {
+										audio.play();
+									} else {
+										audio.pause();
+									}
+								}
+
+								document.addEventListener('keypress', function (evt) {
+									if(evt.keyCode == 32) {
+										toggleAudio();
+									}
+								});
+                              </script>
+</body>
+<script src="script.js"></script>
+</html>
